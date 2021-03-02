@@ -1,0 +1,30 @@
+0 100
+0.016667 90
+3 81.2
+5 77.5
+7 74.4
+11 68.3
+13 65.8
+14 64.6
+15 63.4
+19 59.3 good
+21 57.4 perfect
+22 56.2
+23 55.5 totally gulpable
+24 54.4
+25 53.3
+26 52.7 tasty but not hot
+27 51.5
+29 50.0
+31 48.3
+32 47.4 acceptable; not impressive
+33 46.0
+35 44.9
+39 41.4
+43 38.8 maybe not
+52 34.0 pretty bad now
+56 32.0
+59 30.8 bad
+62 29.5 poor
+67 27.4 yep no
+82 22.8 hell no

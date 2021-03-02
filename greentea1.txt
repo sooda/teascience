@@ -1,0 +1,21 @@
+0 75.2
+1 72.4
+2 70.9
+3 69.4
+4 68.4 dangerous to sip
+5 67.0
+7 64.5
+9 62.5
+11 60.4 nice and hot, sippable
+13 58.3
+15 56.5 exquisite
+17 54.8 even better
+20 52.4
+25 48.7
+30 45.3 warm only
+35 42.2
+40 39.3 worse now
+45 36.5 taste is disappearing
+51 33.7 not good nor bad
+58 30.6 hints of bad
+74 25.3

@@ -1,0 +1,20 @@
+0 100 immediate tissue damage
+0.0025 95
+0.016667 90 (cup warming up)
+0.025 85.5
+3 82.0
+5 78.0
+7 74.5
+9 71.5 still deadly hot
+11 69.0 tiny sips
+14 65.0 handle with care
+17 61.5 ok
+20 58.5 nice and hot, sippable
+25 54.0 perfect
+30 49.8 warm, not hot
+35 45.8 warm but ok
+44 40.0 barely acceptable
+52 35.7 tasteless
+57 33.5 this is bad
+67 29.6 lol absolutely disgusting
+84 25.3 yuck hell no

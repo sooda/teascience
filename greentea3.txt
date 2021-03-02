@@ -1,0 +1,15 @@
+0 75.0
+5 67.0 too hot, sips burn
+6 65.5 sips still burn a bit
+7 64.3
+9 62.2 no longer burns
+10 60.8 this is fine
+11 59.7 more good
+12 58.7
+13 57.4
+14 56.1
+16 53.9 comfortable
+18 51.7
+20 49.3
+22 46.6 getting cooler now
+25 42.9 still very good
