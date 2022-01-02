@@ -1,0 +1,182 @@
+\documentclass[finnish,aspectratio=169]{beamer}
+\usepackage[latin1]{inputenc}
+\usetheme{Frankfurt}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue}
+\usecolortheme[named=orange]{structure}
+
+\title{Teen makoisuus lämpötilan funktiona}
+\author{Konsta Hölttä}
+\date{2022-01-02}
+
+\newcommand{\kuva}[2]{\begin{figure}[h]
+\includegraphics[height=#1\textheight]{#2}
+\end{figure}}
+
+\begin{document}
+
+\maketitle
+
+\section{Johdanto}
+\subsection*{}
+
+\begin{frame}
+	\frametitle{Tutkimuksesta}
+	\begin{itemize}
+	\item Etätöissä kehittyy uusia rutiineja
+	\item Moni tee on oikeastaan tosi hyvää
+	\item (Kahvi on sietämätöntä)
+	\item Kofeiini ei varsinaisesti kiinnosta
+	\item Mittaaminen on kivaa ylipäänsä
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Mitä tee on}
+	\kuva{0.8}{oldleaves.jpg}{Strange Planet, Nathan W. Pyle}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Mitä tee ei ole}
+	\kuva{0.8}{kahvi.jpg}{Strange Planet, Nathan W. Pyle}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Tutkimusmotivaatio}
+	\begin{itemize}
+	\item Teen juontiin on monia syitä yleisestä nautinnosta sosiaaliseen bondaukseen
+	\item Teen haudutukseen on lukemattomia eri seremonioita
+	\item Seremonian laatu vaikuttaa suoraan teen laatuun
+	\item Sopivaa pelleilyä keskelle työpäivää
+	\item \url{https://github.com/sooda/teascience}
+	\end{itemize}
+\end{frame}
+
+\section{Menetelmä}
+\subsection*{}
+
+\begin{frame}
+	\frametitle{Tutkimuksen menetelmä}
+	\begin{itemize}
+	\item Sopiva muki
+	\item Sopiva tee, riittävän konsistentti ettei siitäkin tule ylimääräistä muuttujaa
+	\item Vesi keittimestä mukiin ja teesihti sekaan
+	\item Haudutellaan teelaadun ohjeen mukaan
+	\item Hörpitään vähän kerrallaan, merkitään mittaukset muistiin
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Koejärjestelyn alustus}
+	\begin{itemize}
+	\item Musta tee "sadassa" celsiusasteessa
+	\item Vihreä tee 75 asteessa
+	\item Kolmen minuutin haudutus
+	\item Huoneenlämpö ympärillä (20 C)
+	\item Kolme mustaa, kolme vihreää teetä eri päivinä
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Kokeen suoritus}
+	\begin{itemize}
+	\item Ajastin rullaa haudutuksesta lähtien
+	\item Pyöritellään mittaprobea mukissa
+	\item Maistellaan \href{https://www.youtube.com/watch?v=BW1te\_miu5I\#t=1m31s}{tarkkaan}
+	\item Merkitään taulukkoon aika, mitattu lämpötila ja havaittu maku
+	\item Jos maku ei muuttunut aiemmasta, niin jätetään mainitsematta
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Koejärjestely kuvana}
+	\kuva{0.9}{../irl.jpg}{Muki, lämpömittari, aikamittari}
+\end{frame}
+
+\section{Tulokset}
+\subsection*{}
+
+\begin{frame}
+	\frametitle{Datan muoto}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{itemize}
+				\item 0 100 immediate tissue damage
+				\item 0.0025 95
+				\item 0.016667 90 (cup warming up)
+				\item 0.025 85.5
+				\item 3 82.0
+				\item 5 78.0
+				\item 7 74.5
+				\item 9 71.5 still deadly hot
+				\item 11 69.0 tiny sips
+				\item 14 65.0 handle with care
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{itemize}
+				\item 17 61.5 ok
+				\item 20 58.5 nice and hot, sippable
+				\item 25 54.0 perfect
+				\item 30 49.8 warm, not hot
+				\item 35 45.8 warm but ok
+				\item 44 40.0 barely acceptable
+				\item 52 35.7 tasteless
+				\item 57 33.5 this is bad
+				\item 67 29.6 lol absolutely disgusting
+				\item 84 25.3 yuck hell no
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Mittausdata kuvaajana}
+	\kuva{0.85}{../measurements.png}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Laatuanalyysi}
+	\kuva{0.85}{../quality.png}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Huomioita}
+	\begin{itemize}
+	\item 50-60-asteinen tee on kivaa
+	\item Lämpimämmällä ei ole laatua kun ei vain voi käyttää
+	\item Viileämpi maistuu jotenkin huonommalta
+	\item Vihreä tee ei happane niin hurjasti jäähtyessään
+	\item Lämpötila mukissa vaihtelee (pinnasta haihtuu, keskellä lämpimintä)
+	\item Laadun absoluuttinen määritys ei ole yhtenäistä
+	\end{itemize}
+\end{frame}
+
+\section{Johtopäätökset}
+\subsection*{}
+
+\begin{frame}
+	\frametitle{Johtopäätökset}
+	\begin{itemize}
+	\item Samoissa olosuhteissa teen laatu on hyvin toistettavissa
+	\item 56 C on optimilämpö mustalle ja vihreälle teelle
+	\item Vihreä tee jäähtyy haudutuksen alusta 14 minuutissa sopivaksi
+	\item Musta tee jäähtyy 21 minuutissa sopivaksi
+	\item Jo haudutuksen aikana tee jäähtyy huomattavasti
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Lisäkysymyksiä}
+	\begin{itemize}
+	\item Entäpä jos tee pidetään haudutuksen aikana tarkalleen ohjelämpötilassa?
+	\item Pysyykö lämpötila teenvalmistusvekottimessa vai kytkeytyykö sellainen vain ylläpitolämpöön?
+	\item Kauanko optimilämpöinen tee pysyy optimimakuisena?
+	\item Vaikuttaako pohjalle kertynyt teemuru tähän kaikkeen?
+	\item Entä kylmähaudutettu tee?
+	\item Entä yrttiteet?
+	\item Entä muut mukit?
+	\end{itemize}
+\end{frame}
+
+\end{document}
